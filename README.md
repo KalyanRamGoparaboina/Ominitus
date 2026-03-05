@@ -2,6 +2,17 @@
 
 A full-stack Login Application built with **React** (frontend) and **Node.js with Express** (backend).
 
+## 🎬 Demo
+
+### Scenario 1: Invalid Credentials
+![Invalid Credentials](demo/wrong_credentials.png)
+
+### Scenario 2: Successful Login → Welcome Page
+![Welcome Page](demo/welcome_page.png)
+
+### Scenario 3: Remember Username After Logout
+![Remember Username](demo/remember_username.png)
+
 ## Features
 
 - 🔐 Login page with username and password fields
@@ -31,6 +42,7 @@ login-app/
 │   │   └── main.jsx       # App entry point
 │   ├── package.json
 │   └── node_modules/
+├── demo/                  # Demo screenshots
 ├── .gitignore
 └── README.md
 ```
